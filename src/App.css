@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+  background-color: #081b29;
+}
+
+.layout{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #081b29;
+  color: white;
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 100px;
+}
+
+.links{
+  display: flex;
+  gap: 45px;
+  list-style: none;
+}
+
+.links a{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.links a:hover{
+  color: #00abf0;
+}
+
+.home{
+  width: 50%;
+  margin-left: 120px;
+  margin-top: 120px;
+}
+
+.home h1{
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.home h2{
+  font-size: 38px;
+  color: #00abf0;
+  margin-bottom: 20px;
+}
+
+.home p{
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 35px;
+  width: 80%;
+}
+
+.buttons{
+  display: flex;
+  gap: 25px;
+}
+
+.buttons button{
+  width: 170px;
+  height: 55px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.buttons button:first-child{
+  background-color: #00abf0;
+  border: none;
+  color: #081b29;
+}
+
+.buttons button:last-child{
+  background-color: transparent;
+  border: 2px solid #00abf0;
+  color: #00abf0;
+}
+
+.buttons button:hover{
+  transform: scale(1.05);
+}
+
+.logo{
+  color: white;
+  margin-right: auto;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.services{
+  padding: 80px;
+  color: white;
+}
+
+.service{
+  margin-top: 30px;
+  padding: 20px;
+  border-left: 3px solid #00abf0;
+}
