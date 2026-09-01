@@ -15,7 +15,7 @@ function NavBar() {
 
         {
             path:"portfolio",
-            title:"Portfolio"
+            title:"Projects"
         },
 
         {
