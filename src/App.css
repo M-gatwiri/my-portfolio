@@ -411,30 +411,21 @@ body {
 .featured-project {
   max-width: 1150px;
   margin: 0 auto 90px;
-
   display: grid;
   grid-template-columns: 1.1fr 1fr;
-
   background-color: #0b2638;
-
   border-radius: 15px;
   overflow: hidden;
-
   border: 1px solid rgba(0, 171, 240, 0.15);
-
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
-
   align-items: stretch;
 }
 
 .project-image {
   width: 100%;
   aspect-ratio: 16 / 9;
-
   overflow: hidden;
-
   background-color: #071722;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -443,17 +434,13 @@ body {
 .project-image img {
   width: 100%;
   height: 100%;
-
   object-fit: contain;
-
   display: block;
-
   transition: 0.3s ease;
 }
 
 .featured-content {
   padding: 50px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -489,15 +476,10 @@ body {
 
 .technologies span {
   padding: 7px 12px;
-
   border-radius: 20px;
-
   background-color: #081b29;
-
   border: 1px solid #29485c;
-
   color: #b8c8d2;
-
   font-size: 13px;
 }
 
@@ -510,34 +492,24 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
   padding: 12px 20px;
-
   border-radius: 6px;
-
   text-decoration: none;
-
   background-color: #00abf0;
-
   color: #081b29;
-
   font-size: 14px;
   font-weight: bold;
-
   transition: 0.3s ease;
 }
 
 .project-buttons a:hover {
   transform: translateY(-2px);
-
   box-shadow: 0 8px 20px rgba(0, 171, 240, 0.25);
 }
 
 .project-buttons .github-button {
   background-color: transparent;
-
   border: 1px solid #00abf0;
-
   color: #00abf0;
 }
 
@@ -553,21 +525,15 @@ body {
 
 .projects-grid {
   display: grid;
-
   grid-template-columns: 1fr 1fr;
-
   gap: 30px;
 }
 
 .project-card {
   background-color: #0b2638;
-
   border: 1px solid rgba(0, 171, 240, 0.15);
-
   border-radius: 12px;
-
   overflow: hidden;
-
   transition: 0.3s ease;
 }
 
@@ -707,11 +673,6 @@ body {
   }
 }
 
-/* =========================
-   MOBILE RESPONSIVENESS
-   ========================= */
-
-/* Tablets and smaller laptops */
 @media (max-width: 900px) {
 
   /* NAVBAR */
@@ -730,8 +691,7 @@ body {
   .logo {
     font-size: 28px;
   }
-
-  /* HOME */
+  
   .home {
     width: auto;
     margin: 90px 40px 0;
@@ -750,16 +710,10 @@ body {
     font-size: 17px;
   }
 
-  /* SERVICES */
   .services {
     padding: 60px 40px;
   }
 }
-
-
-/* =========================
-   MOBILE
-   ========================= */
 
 @media (max-width: 600px) {
 
@@ -786,8 +740,6 @@ body {
     font-size: 15px;
   }
 
-
-  /* HOME */
   .home {
     width: auto;
     margin: 70px 20px 0;
@@ -811,8 +763,6 @@ body {
     margin-bottom: 30px;
   }
 
-
-  /* HOME BUTTONS */
   .buttons {
     flex-direction: column;
     align-items: center;
@@ -824,8 +774,6 @@ body {
     max-width: 280px;
   }
 
-
-  /* SERVICES */
   .services {
     padding: 50px 20px;
   }
@@ -834,8 +782,6 @@ body {
     padding: 15px;
   }
 
-
-  /* CONTACT */
   .contact-page {
     padding: 50px 20px;
   }
@@ -899,8 +845,6 @@ body {
     gap: 0;
   }
 
-
-  /* PORTFOLIO */
   .portfolio-page {
     padding: 55px 20px;
   }
@@ -961,8 +905,6 @@ body {
     width: 100%;
   }
 
-
-  /* OTHER PROJECTS */
   .projects-subheading {
     font-size: 27px;
     margin-bottom: 25px;
@@ -986,11 +928,6 @@ body {
     line-height: 1.6;
   }
 }
-
-
-/* =========================
-   VERY SMALL PHONES
-   ========================= */
 
 @media (max-width: 380px) {
 
@@ -1047,11 +984,6 @@ body {
   }
 }
 
-```css
-/* =========================
-   HAMBURGER MENU
-   ========================= */
-
 .hamburger {
   display: none;
   background: transparent;
@@ -1076,11 +1008,6 @@ body {
   transition: 0.3s ease;
 }
 
-
-/* =========================
-   MOBILE NAVBAR
-   ========================= */
-
 @media (max-width: 600px) {
 
   .navbar {
@@ -1099,13 +1026,11 @@ body {
     font-size: 28px;
   }
 
-  /* Show hamburger */
   .hamburger {
     display: flex;
     z-index: 1001;
   }
 
-  /* Mobile menu */
   .links {
     position: absolute;
 
